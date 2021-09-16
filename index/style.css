@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.centerOne {
+    height: 5em;
+    width: 5em;
+    background: red;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.centerTwo {
+    height: 5em;
+    width: 5em;
+    background: blue;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    background: blue;
+    height: 50vh;
+    width: 100%;
+}
+ .bottom {
+     background: red;
+     height: 50vh;
+     width: 100%;
+ }
